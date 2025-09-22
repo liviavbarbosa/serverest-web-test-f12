@@ -1,0 +1,12 @@
+{
+    "usuario_cadastrado": {
+        "name": "Usuario Comum",
+        "email": "usuarioteste@icloud.com",
+        "password": "teste1234"
+    },
+    "usuario_adm_cadastrado": {
+        "name": "Usuario Administrador",
+        "email": "usuarioadm@yahoo.com",
+        "password": "teste1234"
+    }
+}
