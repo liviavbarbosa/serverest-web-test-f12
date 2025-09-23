@@ -23,6 +23,7 @@ Não deve permitir o login com campos vazios
     Submit login form            ${user}
     Alert should be              Email é obrigatório
     Alert should be              Password é obrigatório
+    
 Não deve permitir o login de um usuário não cadastrado
     ${email}       FakerLibrary.Email
     ${password}    FakerLibrary.Password
