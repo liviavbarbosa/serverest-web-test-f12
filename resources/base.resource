@@ -10,6 +10,7 @@ Resource         env.resource
 Resource         pages/LoginPage.resource
 Resource         pages/HomePage.resource
 Resource         pages/components/Alert.resource
+Resource         pages/ShoppingListPage.resource
 Resource         pages/SignupPage.resource
 
 *** Keywords ***
@@ -22,3 +23,8 @@ Get fixture
     ${data}     Load Json From File    ${EXECDIR}/resources/fixtures/${file_name}.json    
     ...         encoding=utf-8
     [Return]    ${data}[${scenario}]
+
+Do normal user login
+    [Arguments]    ${user}
+    Submit login form             ${user}
+    User should be logged in      
