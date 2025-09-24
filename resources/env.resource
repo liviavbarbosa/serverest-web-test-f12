@@ -1,6 +1,6 @@
 *** Settings ***
-Documentation        Variáveis globais e configuração de ambiente
+Documentation    Variáveis globais e configurações de ambiente
 
 *** Variables ***
-${BASE_URL}        https://compassuolfront.serverest.dev
-${BROWSER}         chromium
+${BASE_URL}    https://front.serverest.dev/login
+${BROWSER}     chromium
