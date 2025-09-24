@@ -11,6 +11,7 @@ Resource         pages/LoginPage.resource
 Resource         pages/HomePage.resource
 Resource         pages/components/Alert.resource
 Resource         pages/ShoppingListPage.resource
+Resource         pages/SignupPage.resource
 
 *** Keywords ***
 Start session
