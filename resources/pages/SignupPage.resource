@@ -24,19 +24,6 @@ Submit signup form
     #Exemplo de combinação cd css com text
     Click        css=[type=submit] >> text=Cadastrar
 
-Notice should be
-    [Arguments]       ${expected_texto}
-    # A mensagem é passado como argumento para a variável ${expected_texto}
 
-    ${element}        Set Variable        css=.alert
 
-    Wait For Elements State        ${element}      visible        5
-    #Validação da mensagens de boas vindas pra garantir que foi cadastrado: 
-    Get Text                       ${element}      equal      ${expected_texto}
 
-# O alerta deve ser
-Alert should be
-    [Arguments]        ${expected_text}
-
-    Wait For Elements State    text=${expected_text}
-    ...    visible    5

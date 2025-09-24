@@ -1,6 +1,5 @@
 *** Settings ***
 Documentation       Cenário de testes do cadastro de usuários
-Library    FakerLibrary    locale=pt_BR
 Resource    ../resources/base.resource
 
 # Test Setup        Log    Tudo aqui ocorre antes da Suite (antes de todos os testes)
