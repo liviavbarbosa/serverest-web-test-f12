@@ -10,6 +10,7 @@ Resource         env.resource
 Resource         pages/LoginPage.resource
 Resource         pages/HomePage.resource
 Resource         pages/components/Alert.resource
+Resource         pages/SignupPage.resource
 
 *** Keywords ***
 Start session
